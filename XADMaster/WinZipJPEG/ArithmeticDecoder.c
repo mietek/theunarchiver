@@ -222,7 +222,8 @@ static void LogX(WinZipJPEGArithmeticDecoder *self)
 	}
 	else
 	{
-		self->cx=chartbl[self->cx];
+		if(self->cx<512) self->cx=chartbl[self->cx];
+		else self->cx=0;
 		self->ct=8-self->cx;
 		self->xf=0xfff&(self->x>>self->ct); // logical shift
 		self->lx=self->cx<<10;

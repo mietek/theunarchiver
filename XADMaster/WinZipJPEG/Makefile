@@ -8,6 +8,7 @@ LD=gcc
 
 ALL_C_FILES=ArithmeticDecoder.c \
             Decompressor.c \
+            MakeTest.c \
             RawDecoder.c \
             Test.c \
             ../lzma/LzmaDec.c \
@@ -20,16 +21,23 @@ RAWDECODER_C_FILES=ArithmeticDecoder.c \
 TEST_C_FILES=ArithmeticDecoder.c \
              Test.c
 
+MAKETEST_C_FILES=ArithmeticDecoder.c \
+             MakeTest.c
+
 ALL_OBJS=$(ALL_C_FILES:.c=.o)
 RAWDECODER_OBJS=$(RAWDECODER_C_FILES:.c=.o)
 TEST_OBJS=$(TEST_C_FILES:.c=.o)
+MAKETEST_OBJS=$(MAKETEST_C_FILES:.c=.o)
 
-all: RawDecoder Test
+all: RawDecoder Test MakeTest
 
 RawDecoder: $(RAWDECODER_OBJS)
 	$(LD) $(LDFLAGS) -o $@ $^ $(LIBS)
 
 Test: $(TEST_OBJS)
+	$(LD) $(LDFLAGS) -o $@ $^ $(LIBS)
+
+MakeTest: $(MAKETEST_OBJS)
 	$(LD) $(LDFLAGS) -o $@ $^ $(LIBS)
 
 clean:
