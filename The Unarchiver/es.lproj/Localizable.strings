@@ -1,0 +1,82 @@
+﻿/* Status text for queued multi-part archives */
+"%@ (+%d more)" = "%1$@ (+%2$d más)";
+
+/* Error message string. The first %@ is the file name, the second the archive name, the third is error message */
+"Could not extract the file \"%@\" from the archive \"%@\": %@" = "No se pudo extraer el fichero \"%1$@\" del archivo \"%2$@\": %3$@";
+
+/* Error message string. The first %@ is the file name, the second the archive name, the third is error message */
+"Could not extract the resource fork for the file \"%@\" from the archive \"%@\":\n%@" = "No se pudo extraer el resource fork para el fichero \"%1$@\" del archivo \"%2$@\":\n%3$@";
+
+/* Option in the password encoding pop-up to use the default encoding */
+"Default encoding" = "Codificación por defecto";
+
+/* Option in the encoding pop-up to detect the encoding automatically */
+"Detect automatically" = "Detectar automáticamente";
+
+/* Panel OK button title when choosing an unarchiving destination for an archive */
+"Extract" = "Extraer";
+
+/* Panel title when choosing an unarchiving destination for an archive */
+"Extract Archive" = "Extraer Archivo";
+
+/* Status text while extracting an archive */
+"Extracting \"%@\"" = "Extrayendo \"%@\"";
+
+/* Status text when preparing to extract an archive */
+"Preparing to extract \"%@\"" = "Preparando para extraer \"%@\"";
+
+/* Panel OK button title when choosing a default unarchiving destination */
+"Select" = "Seleccione";
+
+/* Panel title when choosing archives to extract */
+"Select files to unarchive" = "Seleccione los ficheros para extraer";
+
+/* Error message for files not extractable by The Unarchiver */
+"The contents of the file \"%@\" can not be extracted with this program." = "Los contenidos del fichero \"%@\" no se pueden extraer con este programa.";
+
+/* Error message when encountering an error while extracting entries */
+"There was a problem while extracting the contents of the file \"%@\": %@" = "Ha habido un problema durante la extracción de los contenidos del fichero \"%1$@\": %2$@";
+
+/* Error message when encountering an error while parsing an archive */
+"There was a problem while reading the contents of the file \"%@\": %@" = "Ha habido un problema durante la lectura de los contenidos del fichero \"%1$@\": %2$@";
+
+/* Panel OK button title when choosing archives to extract */
+"Unarchive" = "Extraer";
+
+/* Status text when asking for a password */
+"You need to supply a password to open the archive \"%@\"." = "Necesita escribir una contraseña para abrir el archivo \"%@\".";
+
+/* Error messages from XADMaster.framework. Some are converted to friendlier messages in English, too. */
+
+/* Common errors */
+"Attempted to read more data than was available" = "El archivo está incompleto";
+"Opening file failed" = "No se ha podido abrir el fichero";
+"Missing or wrong password" = "La contraseña es incorrecta";
+"Wrong checksum" = "El archivo está corrupto";
+"Could not create directory" = "No se ha podido crear la carpeta";
+
+/* Uncommon or unused errors */ /* some hadn't been translated because there isn't right Mtranslations*/
+"Unknown error" = "Error desconocido";
+"Failed to write to file" = "Error al escibir el fichero";
+"Function called with illegal parameters" = "Función llamada con parámetros no válidos";
+"Not enough memory available" = "No hay suficiente memoria disponible";
+"Data is corrupted" = "Los datos están corruptos";
+"File is not fully supported" = "El fichero no tiene soporte completo";
+"Required resource missing" = "No se encuentra un recurso necesario";
+"Error on decrunching" = "Error on decrunching";
+"Unknown file type" = "Tipo de archivo desconocido";
+"File, disk has been skipped" = "Fichero, el disco se ha saltado"; //That isn't the best translation
+"User cancelled extraction" = "Extracción cancelada por el usuario";
+"File already exists" = "El fichero ya existe";
+"Verify failed (disk hook)" = "Error en la comprobación (disk hook)";
+"Wrong drive geometry" = "Wrong drive geometry";
+"Unknown data format" = "Fomato de datos desconocido";
+"Source contains no files" = "El archivo no contiene ficheros";
+"Unknown filesystem" = "Sistema de ficheros desconocido";
+"Name of file exists as directory" = "El nombre del fichero existe como directorio";
+"Buffer was too short" = "El buffer era demasiado corto";
+"Text encoding was defective" = "La codificación del texto era defectuosa";
+"Could not create symlink" = "No se ha podido crear el symlink";
+
+
+

@@ -1,0 +1,82 @@
+﻿/* Status text for queued multi-part archives */
+"%@ (+%d more)" = "%1$@（残り +%2$d 項目）";
+
+/* Error message string. The first %@ is the file name, the second the archive name, the third is error message */
+"Could not extract the file \"%@\" from the archive \"%@\": %@" = "アーカイブ\"%2$@\"からファイル\"%1$@\"を展開できません：%3$@";
+
+/* Error message string. The first %@ is the file name, the second the archive name, the third is error message */
+"Could not extract the resource fork for the file \"%@\" from the archive \"%@\":\n%@" = "アーカイブ\"%2$@\"からファイル\"%1$@\"のリソースフォークを展開できません：\n%3$@";
+
+/* Option in the password encoding pop-up to use the default encoding */
+"Default encoding" = "デフォルトエンコーディング";
+
+/* Option in the encoding pop-up to detect the encoding automatically */
+"Detect automatically" = "自動判別";
+
+/* Panel OK button title when choosing an unarchiving destination for an archive */
+"Extract" = "展開";
+
+/* Panel title when choosing an unarchiving destination for an archive */
+"Extract Archive" = "アーカイブを展開";
+
+/* Status text while extracting an archive */
+"Extracting \"%@\"" = "\"%@\"を展開中";
+
+/* Status text when preparing to extract an archive */
+"Preparing to extract \"%@\"" = "\"%@\"の展開を準備中";
+
+/* Panel OK button title when choosing a default unarchiving destination */
+"Select" = "選択";
+
+/* Panel title when choosing archives to extract */
+"Select files to unarchive" = "展開するファイルを選択";
+
+/* Error message for files not extractable by The Unarchiver */
+"The contents of the file \"%@\" can not be extracted with this program." = "ファイル\"%@\"の内容は、このプログラムでは展開できません。";
+
+/* Error message when encountering an error while extracting entries */
+"There was a problem while extracting the contents of the file \"%@\": %@" = "ファイル\"%1$@\"の内容を展開する際に問題が発生しました：%2$@";
+
+/* Error message when encountering an error while parsing an archive */
+"There was a problem while reading the contents of the file \"%@\": %@" = "ファイル\"%1$@\"の内容を読み込む際に問題が発生しました：%2$@";
+
+/* Panel OK button title when choosing archives to extract */
+"Unarchive" = "展開";
+
+/* Status text when asking for a password */
+"You need to supply a password to open the archive \"%@\"." = "アーカイブ\"%@\"を展開するにはパスワードの入力が必要です。";
+
+/* Error messages from XADMaster.framework. Some are converted to friendlier messages in English, too. */
+
+/* Common errors */
+"Input data buffers border exceeded" = "アーカイブファイルが不完全です";
+"Opening file failed" = "ファイルを開けませんでした";
+"Missing or wrong password" = "入力されたパスワードが正しくありません";
+"Wrong checksum" = "アーカイブファイルが壊れています";
+"Could not create directory" = "フォルダを作成できませんでした";
+
+/* Uncommon or unused errors */
+"Unknown error" = "不明のエラー";
+"Failed to write to file" = "ファイルの書き込みに失敗しました";
+"Function called with illegal parameters" = "不正な引数による関数呼び出しです";
+"Not enough memory available" = "メモリが不十分です";
+"Data is corrupted" = "データが壊れています";
+"Command is not supported" = "サポート外のコマンドです";
+"Required resource missing" = "必要なリソースが見つかりません";
+"Error on decrunching" = "展開時にエラーが発生しました";
+"Unknown file type" = "ファイル形式が不明です";
+"File, disk has been skipped" = "ファイル、ディスクがスキップされました";
+"User break in progress hook" = "ユーザにより中止されました";
+"File already exists" = "ファイルがすでに存在します";
+"Verify failed (disk hook)" = "検証に失敗しました";
+"Wrong drive geometry" = "ドライブジオメトリが誤っています";
+"Unknown data format" = "データ形式が不明です";
+"Source contains no files" = "ファイルが含まれていません";
+"Unknown filesystem" = "ファイルシステムが不明です";
+"Name of file exists as directory" = "同じ名前のフォルダがすでに存在します";
+"Buffer was too short" = "バッファが少なすぎます";
+"Text encoding was defective" = "テキストエンコーディングに問題があります";
+"Could not create symlink" = "シンボリックリンクを作成できません";
+
+
+
