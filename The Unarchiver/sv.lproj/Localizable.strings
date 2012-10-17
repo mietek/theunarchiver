@@ -1,0 +1,82 @@
+﻿/* Status text for queued multi-part archives */
+"%@ (+%d more)" = "%1$@ (+%2$d kvar)";
+
+/* Error message string. The first %@ is the file name, the second the archive name, the third is error message */
+"Could not extract the file \"%@\" from the archive \"%@\": %@" = "Kunde inte packa upp filen \"%1$@\" från arkivet \"%2$@\": %3$@";
+
+/* Error message string. The first %@ is the file name, the second the archive name, the third is error message */
+"Could not extract the resource fork for the file \"%@\" from the archive \"%@\":\n%@" = "Kunde inte packa upp resursdelen för filen \"%1$@\" från arkivet \"%2$@\":\n%3$@";
+
+/* Option in the password encoding pop-up to use the default encoding */
+"Default encoding" = "Standardkodning";
+
+/* Option in the encoding pop-up to detect the encoding automatically */
+"Detect automatically" = "Upptäck automatiskt";
+
+/* Panel OK button title when choosing an unarchiving destination for an archive */
+"Extract" = "Packa upp";
+
+/* Panel title when choosing an unarchiving destination for an archive */
+"Extract Archive" = "Packa upp arkiv";
+
+/* Status text while extracting an archive */
+"Extracting \"%@\"" = "Packar upp \"%@\"";
+
+/* Status text when preparing to extract an archive */
+"Preparing to extract \"%@\"" = "Förbereder att packa upp \"%@\"";
+
+/* Panel OK button title when choosing a default unarchiving destination */
+"Select" = "Välj";
+
+/* Panel title when choosing archives to extract */
+"Select files to unarchive" = "Välj filer att packa upp";
+
+/* Error message for files not extractable by The Unarchiver */
+"The contents of the file \"%@\" can not be extracted with this program." = "Innehållet i filen \"%@\" kan inte packas upp av detta program.";
+
+/* Error message when encountering an error while extracting entries */
+"There was a problem while extracting the contents of the file \"%@\": %@" = "Ett problem stöttes på när filen \"%1$@\" packades upp: %2$@";
+
+/* Error message when encountering an error while parsing an archive */
+"There was a problem while reading the contents of the file \"%@\": %@" = "Ett problem stöttes på när filen \"%1$@\" skulle läsas: %2$@";
+
+/* Panel OK button title when choosing archives to extract */
+"Unarchive" = "Packa upp";
+
+/* Status text when asking for a password */
+"You need to supply a password to open the archive \"%@\"." = "Du behöver skriva in ett lösenord för att öppna arkivet \"%@\".";
+
+/* Error messages from XADMaster.framework. Some are converted to friendlier messages in English, too. */
+
+/* Common errors */
+"Attempted to read more data than was available" = "Akrivfilen är inte komplett";
+"Opening file failed" = "Filen kunde inte öppnas";
+"Missing or wrong password" = "Lösenordet accepterades inte";
+"Wrong checksum" = "Filen är skadad";
+"Could not create directory" = "Kunde inte skapa mappen";
+
+/* Uncommon or unused errors */
+"Unknown error" = "Okänt fel";
+"Failed to write to file" = "Kunde inte skriva till filen";
+"Function called with illegal parameters" = "Funktionen kallade otillåtna parametrar";
+"Not enough memory available" = "Not enough memory available";
+"Data is corrupted" = "Datan är skadad";
+"File is not fully supported" = "Filformatet stöds inte till fullo";
+"Required resource missing" = "Krävd resurs saknas";
+"Error on decrunching" = "Fel vid uppackning";
+"Unknown file type" = "Okänd filtyp";
+"File, disk has been skipped" = "Fil, disk hoppades över";
+"User cancelled extraction" = "Användaren avbröt uppackningen";
+"File already exists" = "Filen existerar redan";
+"Verify failed (disk hook)" = "Verifiering misslyckades (disk hook)";
+"Wrong drive geometry" = "Felaktig skivgeometri";
+"Unknown data format" = "Okänt dataformat";
+"Source contains no files" = "Källan innehåller inga filer";
+"Unknown filesystem" = "Okänt filsystem";
+"Name of file exists as directory" = "Namn på filen existerar redan som en mapp";
+"Buffer was too short" = "Bufferten var för kort";
+"Text encoding was defective" = "Textkodning var defekt";
+"Could not create symlink" = "Kunde inte skapa symbolisk länk";
+
+
+
