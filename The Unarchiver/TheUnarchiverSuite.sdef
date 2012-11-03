@@ -179,7 +179,7 @@
 			 TODO: There is a bug, so it can't be implemented
 			 </parameter-->
 		</command>
-		<enumeration name="Task to cancel" code="TUtC" inline="20"
+		<!--<enumeration name="Task to cancel" code="TUtC" inline="20"
 			description="">
 			<enumerator name="All tasks" code="TaAl" description="All the extractions, including the user extractions.">
 				<synonym name="All"/>
@@ -191,7 +191,7 @@
 			<direct-parameter description="What to cancell, currently only all">
 				<type type="Task to cancel"/>
 			</direct-parameter>
-		</command>
+		</command>-->
 		<class name="application" code="capp" description="The application's top-level scripting object.">
 			<cocoa class="NSApplication"/>
 			<property name="isRunningExtractions" code="TUiR" type="boolean" access="r">

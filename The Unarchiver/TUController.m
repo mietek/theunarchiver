@@ -115,6 +115,11 @@ static BOOL IsPathWritable(NSString *path);
 
 -(NSWindow *)window { return mainwindow; }
 
+-(BOOL)hasRunningExtractions
+{
+	return [archivecontrollers count]!=0;
+}
+
 
 
 -(void)applicationDidFinishLaunching:(NSNotification *)notification
@@ -774,31 +779,10 @@ userData:(NSString *)data error:(NSString **)error
 	[[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"http://unarchiver.c3.cx/"]];
 }
 
-//AppleScript stuff
--(TUTaskQueue *)extractTasks
-{
-	return extracttasks;
-}
-
--(TUTaskQueue *)setupTasks
-{
-	return setuptasks;
-}
-
--(NSMutableArray *)archivecontrollers
-{
-	return archivecontrollers;
-}
-
 -(BOOL)application:(NSApplication *)sender delegateHandlesKey:(NSString *)key
 {
 	if ([key isEqualToString:@"hasRunningExtractions"]) return YES;
 	return NO;
-}
-
--(BOOL)hasRunningExtractions
-{
-	return [archivecontrollers count]!=0;
 }
 
 @end
