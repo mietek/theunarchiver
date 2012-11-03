@@ -50,6 +50,7 @@
 -(void)cleanupOrphanedTempDirectories;
 
 -(NSWindow *)window;
+-(BOOL)hasRunningExtractions;
 
 -(void)applicationDidFinishLaunching:(NSNotification *)notification;
 -(BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)app;
@@ -102,11 +103,6 @@ userData:(NSString *)data error:(NSString **)error;
 -(IBAction)openSupportBoard:(id)sender;
 -(IBAction)openBugReport:(id)sender;
 -(IBAction)openHomePage:(id)sender;
-
--(TUTaskQueue *)extractTasks;
--(TUTaskQueue *)setupTasks;
--(NSMutableArray *)archivecontrollers;
--(BOOL)hasRunningExtractions;
 
 /*-(void)lockFileSystem:(NSString *)filename;
 -(BOOL)tryFileSystemLock:(NSString *)filename;

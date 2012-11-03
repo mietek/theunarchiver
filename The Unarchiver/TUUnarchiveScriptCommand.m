@@ -1,11 +1,5 @@
 #import "TUUnarchiveScriptCommand.h"
 
-#define UseURLs
-#define DEBUG
-
-#define deleteKeyMacro @"deleteExtractedArchive"
-#define openFolder @"openExtractedArchive"
-
 //User defaults keys:
 
 /*

@@ -557,11 +557,6 @@ fileProgress:(double)fileprogress totalProgress:(double)totalprogress
 	}
 }
 
--(TUArchiveTaskView *)view
-{
-	return view;
-}
-
 /*-(NSString *)simpleUnarchiver:(XADSimpleUnarchiver *)sender replacementPathForEntryWithDictionary:(NSDictionary *)dict
 originalPath:(NSString *)path suggestedPath:(NSString *)unique;
 -(NSString *)simpleUnarchiver:(XADSimpleUnarchiver *)sender deferredReplacementPathForOriginalPath:(NSString *)path
