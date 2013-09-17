@@ -94,7 +94,7 @@ NSString *CSSizeOfSegmentUnknownException=@"CSSizeOfSegmentUnknownException";
 
 -(BOOL)atEndOfFile
 {
-	return currhandle==[handles count]-1&&[[handles objectAtIndex:currhandle] atEndOfFile];
+	return currhandle==[handles count]-1 && [[handles objectAtIndex:currhandle] atEndOfFile];
 }
 
 -(void)seekToFileOffset:(off_t)offs
