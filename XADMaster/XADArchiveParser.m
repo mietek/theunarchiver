@@ -330,7 +330,17 @@ resourceFork:(XADResourceFork *)fork name:(NSString *)name propertiesToAdd:(NSMu
 				NSString *volume;
 
 				while((volume=[enumerator nextObject]))
-				[handles addObject:[CSFileHandle fileHandleForReadingAtPath:volume]];
+				{
+					if([volume isEqual:filename])
+					{
+						[handles addObject:handle];
+					}
+					else
+					{
+						CSFileHandle *volumehandle=[CSFileHandle deferedFileHandleForReadingAtPath:volume];
+						[handles addObject:volumehandle];
+					}
+				}
 
 				CSMultiHandle *multihandle=[CSMultiHandle multiHandleWithHandleArray:handles];
 

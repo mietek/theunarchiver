@@ -11,6 +11,9 @@ extern NSString *CSFileErrorException;
 {
 	FILE *fh;
 	BOOL close;
+	int opencount;
+
+	NSString *path,*modes;
 
 	NSLock *multilock;
 	CSFileHandle *parent;
@@ -20,6 +23,7 @@ extern NSString *CSFileErrorException;
 +(CSFileHandle *)fileHandleForReadingAtPath:(NSString *)path;
 +(CSFileHandle *)fileHandleForWritingAtPath:(NSString *)path;
 +(CSFileHandle *)fileHandleForPath:(NSString *)path modes:(NSString *)modes;
++(CSFileHandle *)deferredFileHandleForReadingAtPath:(NSString *)path;
 
 // Initializers
 -(id)initWithFilePointer:(FILE *)file closeOnDealloc:(BOOL)closeondealloc name:(NSString *)descname;
@@ -29,6 +33,8 @@ extern NSString *CSFileErrorException;
 
 // Public methods
 -(FILE *)filePointer;
+-(BOOL)isDeferred;
+-(BOOL)isOpen;
 
 // Implemented by this class
 -(off_t)fileSize;
