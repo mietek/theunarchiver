@@ -1,0 +1,103 @@
+﻿/* Status text for queued multi-part archives */
+"%@ (+%d more)" = "%1$@ (еще +%2$d)";
+
+/* Error message string. The first %@ is the file name, the second the archive name, the third is error message */
+"Could not extract the file \"%@\" from the archive \"%@\": %@" = "Невозможно извлечь файл «%1$@» из архива «%2$@»: %3$@";
+
+/* Error message string. The first %@ is the file name, the second the archive name, the third is error message */
+"Could not extract the resource fork for the file \"%@\" from the archive \"%@\":\n%@" = "Невозможно извлечь ветвь ресурсов файла «%1$@» из архива «%2$@»:\n%3$@";
+
+/* Option in the password encoding pop-up to use the default encoding */
+"Default encoding" = "Использовать стандартную";
+
+/* Option in the encoding pop-up to detect the encoding automatically */
+"Detect automatically" = "Определять автоматически";
+
+/* Panel OK button title when choosing an unarchiving destination for an archive */
+"Extract" = "Распаковать в";
+
+/* Panel title when choosing an unarchiving destination for an archive */
+"Extract Archive" = "Распаковка архива";
+
+/* Status text while extracting an archive */
+"Extracting \"%@\"" = "Распаковываю «%@»";
+
+/* Status text when preparing to extract an archive */
+"Preparing to extract \"%@\"" = "Готовлюсь к распаковке «%@»";
+
+/* Panel OK button title when choosing a default unarchiving destination */
+"Select" = "Выбрать";
+
+/* Panel title when choosing archives to extract */
+"Select files to unarchive" = "Выберите файлы для распаковки";
+
+/* Error message for files not extractable by The Unarchiver */
+"The contents of the file \"%@\" can not be extracted with this program." = "Эта программа не может распаковать «%@».";
+
+/* Error message when encountering an error while extracting entries */
+"There was a problem while extracting the contents of the file \"%@\": %@" = "Возникла проблема при распаковке файла «%1$@»: %2$@";
+
+/* Error message when encountering an error while parsing an archive */
+"There was a problem while reading the contents of the file \"%@\": %@" = "Возникла проблема при чтении содержания файла «%1$@»: %2$@";
+
+/* Panel OK button title when choosing archives to extract */
+"Unarchive" = "Распаковать";
+
+/* Status text when asking for a password */
+"You need to supply a password to open the archive \"%@\"." = "Для распаковки архива «%@» следует указать пароль.";
+
+/* Title for nagging alert on first startup */
+"Where should The Unarchiver extract archives?" = "Куда The Unarchiver должен распаковывать архивы?";
+
+/* Content of nagging alert on first startup */
+"Would you like The Unarchiver to extract archives to the same folder as the archive file, or would you prefer to be asked for a destination folder for every individual archive?" = "Должен ли The Unarchiver распаковывать архивы в ту же папку, где находится исходный архив, либо запрашивать папку для каждого архива?";
+
+/* Button to ask every time in nagging alert on first startup */
+"Ask every time" = "Запрашивать каждый раз";
+
+/* Button to extract to the same folder in nagging alert on first startup */
+"Extract to the same folder" = "Извлекать в ту же папку";
+
+/* Informative text in the file panel shown when trying to gain sandbox access */
+"The Unarchiver does not have permission to write to this folder. To allow The Unarchiver to write to this folder, simply click \"Extract\". This permission will be remembered for this folder, and The Unarchiver will not need to ask for it again." = "The Unarchiver не может записывать в эту папку. Возможно, доступ блокирует Mac OS X sandbox. Чтобы позволить The Unarchiver записывать в эту папку, просто щелкните «Extract». Это будет запомнено, и The Unarchiver больше не будет его запрашивать.";
+
+/* Informative text in the file panel shown when trying to gain sandbox access for multi-part archives */
+"The Unarchiver needs to search for more parts of this archive, but does not have permission to read the folder. To allow The Unarchiver to search in this folder, simply click \"Search\". This permission will be remembered for this folder, and The Unarchiver will not need to ask for it again." = "The Unarchiver необходимо найти остальные части архива, но Mac OS X sandbox заблокировал доступ к папке. Чтобы разрешить доступ The Unarchiver к поиску в данной папке, просто щелкните «Искать». Права доступа будут сохранены и The Unarchiver больше не будет их запрашивать.";
+
+/* Panel OK button title when searching for more archive parts */
+"Search" = "Искать";
+
+/* Error messages from XADMaster.framework. Some are converted to friendlier messages in English, too. */
+
+/* Common errors */
+"Attempted to read more data than was available" = "Отсутствует часть файла архива";
+"Opening file failed" = "Не удалось открыть файл";
+"Missing or wrong password" = "Пароль указан неправильно";
+"Wrong checksum" = "Файл архива поврежден";
+"Could not create directory" = "Невозможно создать папку";
+
+/* Uncommon or unused errors */
+"Unknown error" = "Неизвестная ошибка";
+"Failed to write to file" = "Не удалось записать файл";
+"Function called with illegal parameters" = "Функция вызвана с недопустимыми параметрами";
+"Not enough memory available" = "Недостаточно памяти";
+"Data is corrupted" = "Данные повреждены";
+"File is not fully supported" = "Файл не поддерживается полностью";
+"Required resource missing" = "Отсутствует необходимый ресурс";
+"Error on decrunching" = "Ошибка декомпрессии";
+"Unknown file type" = "Неизвестный тип файла";
+"File, disk has been skipped" = "Файл, диск пропущен";
+"User cancelled extraction" = "Процесс прерван пользователем";
+"File already exists" = "Файл уже существует";
+"Verify failed (disk hook)" = "Ошибка при проверке (disk hook)";
+"Wrong drive geometry" = "Ошибочные параметры диска";
+"Unknown data format" = "Неизвестный формат даных";
+"Source contains no files" = "Архив не содержит файлов";
+"Unknown filesystem" = "Неизвестная файловая система";
+"Name of file exists as directory" = "Имя файла совпадает с именем существующей папки";
+"Buffer was too short" = "Буфер слишком мал";
+"Text encoding was defective" = "Кодировка текста ошибочна";
+"Could not create symlink" = "Не удалось создать символическую ссылку";
+
+
+
