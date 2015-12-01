@@ -798,7 +798,7 @@ userData:(NSString *)data error:(NSString **)error
 
 -(IBAction)openBugReport:(id)sender
 {
-	[[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"http://code.google.com/p/theunarchiver/issues/list"]];
+	[[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"https://bitbucket.org/WAHa_06x36/theunarchiver/issues"]];
 }
 
 -(IBAction)openHomePage:(id)sender
