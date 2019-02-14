@@ -1,3 +1,9 @@
+-------------------------------------------------------------------------------
+
+This is an archival copy of the [original page](https://code.google.com/archive/p/theunarchiver).  Please see the [wiki](https://github.com/mietek/theunarchiver/wiki).
+
+-------------------------------------------------------------------------------
+
 # Note: The Unarchiver repository and bug tracker have moved to https://bitbucket.org/WAHa_06x36/theunarchiver #
 
 ![http://wakaba.c3.cx/images/unarchiver_icon.png](http://wakaba.c3.cx/images/unarchiver_icon.png)
